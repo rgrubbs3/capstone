@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-	$servername = "localhost";
-	$username = "username";
-	$password = "password";
 
-	// Create connection
-	$conn = new mysqli($servername, $username, $password);
-
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	} 
-	echo "Connected successfully";
-?>
 
 
 <head>
@@ -23,14 +10,16 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+	<link rel="stylesheet" href="format.css">
+
 	<title>Capture Sports</title>
 </head>
 
-<body>
-	<div class="container">
+<body class="header">
+	<div class="container-fluid">
 		<div class="row">
 			<!-- Top half of the webpage -->
-			<div class="col-lg-3">
+			<div class="col-lg-8">
 				<h1>Capture Sports</h1>
 				<p>A place where sports fans are able to plan their perfect getaway</p>
 				<br><br>
@@ -42,19 +31,23 @@
 				<a href="misc.html">misc</a>&nbsp;
 
 			</div>
+
+		</div>
+
+		<div class="row">
 			
 			<!-- First column will be the west coast -->
-			<div class="col-lg-1">
+			<div class="col-lg-4">
 				<h2>West Coast</h2>
 			</div>
 			
 			<!-- Second column on bottom half will be central -->
-			<div class="col-lg-1">
+			<div class="col-lg-4">
 				<h2>Central</h2>
 			</div>
 			
 			<!-- Third column on bottom half will be east coast -->
-			<div class="col-lg-1">
+			<div class="col-lg-4">
 				<h2>East Coast</h2>
 			</div>
 		</div>
