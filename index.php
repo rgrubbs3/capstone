@@ -4,7 +4,7 @@
 	$password = "grubbs445Capstone";
 
 	// Create connection
-	$conn = new mysqli($servername, $username, $password);
+	$conn = new mysqli_connect($servername, $username, $password, "capstonedb");
 
 	// Check connection
 	if ($conn->connect_error) {
