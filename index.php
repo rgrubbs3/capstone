@@ -11,7 +11,7 @@
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
 	} 
-	echo "Connected successfully";
+//	echo "Connected successfully";
 ?>
 <html lang="en">
 <head>
@@ -50,7 +50,7 @@
 			<?php
 				//Step2
 				$query = "SELECT * FROM StadiumLoc";
-				mysqli_query($db, $query) or die('Error querying database.');
+				mysqli_query($db, $query) or echo('Error querying database.');
 			?>
 
 			<br>
