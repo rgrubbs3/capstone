@@ -2,9 +2,10 @@
 	$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
 	$username = "grubbs445Capston";
 	$password = "grubbs445Capstone";
+	$dbname = "capstonedb";
 
 	// Create connection
-	$conn = new mysqli_connect($servername, $username, $password, "capstonedb");
+	$conn = new mysqli($servername, $username, $password, $dbname);
 
 	// Check connection
 	if ($conn->connect_error) {
@@ -40,7 +41,7 @@
 
 	<h3>Trips of the Weekend!</h3>
 
-	<div class="row">
+	<div class="row" align="center">
 		<!-- First column will be the west coast -->
 		<div class="column">
 			<h2>West Coast</h2>
