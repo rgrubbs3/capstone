@@ -65,7 +65,7 @@
 
 				$sql = "SELECT * FROM StadiumLoc";
 				$result = $conn->query($sql);
-				echo $result;
+				echo $sql;
 			?>
 
 
