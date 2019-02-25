@@ -65,15 +65,15 @@
 
 				$sql = "SELECT * FROM StadiumLoc";
 				$result = $conn->query($sql);
-				echo $sql;
-			?>
-
-
-			<?php
-				//Step2
-				$sql = "SELECT * FROM StadiumLoc";
-				$result = $conn->query($sql);
-				echo $result;
+				
+			if ($result->num_rows > 0) {
+   				// output data of each row
+			    while($row = $result->fetch_assoc()) {
+			        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+			    }
+			} else {
+   	 			echo "0 results";
+			}
 			?>
 
 			<br>
