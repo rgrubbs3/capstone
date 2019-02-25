@@ -50,7 +50,7 @@
 			<?php
 				//Step2
 				$query = "SELECT * FROM StadiumLoc";
-				mysqli_query($db, $query) or die('Error querying database.');
+				mysqli_query($dbname, $query) or die('Error querying database.');
 			?>
 
 			<br>
