@@ -49,7 +49,7 @@
 			<p><b>West coast trip of the weekend!</b></p>
 			<?php
 				//Step2
-				$sql = "SELECT Stadium FROM StadiumLoc";
+				$sql = "SELECT * FROM StadiumLoc";
 				$result = $conn->query($sql);
 				echo $result;
 			?>
