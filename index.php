@@ -64,7 +64,8 @@
 			//	echo "Connected successfully";
 
 				$sql = "SELECT * FROM StadiumLoc";
-				$result = $conn->query($sql);
+				$result = mysqli_query($conn, $sql);
+
 				
 			if ($result->num_rows > 0) {
    				// output data of each row
@@ -74,6 +75,8 @@
 			} else {
    	 			echo "0 results";
 			}
+
+			$conn->close();
 			?>
 
 			<br>
