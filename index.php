@@ -51,6 +51,7 @@
 				//Step2
 				$sql = "SELECT Stadium FROM StadiumLoc";
 				$result = $conn->query($sql);
+				echo $result;
 			?>
 
 			<br>
