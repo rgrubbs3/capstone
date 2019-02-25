@@ -49,8 +49,8 @@
 			<p><b>West coast trip of the weekend!</b></p>
 			<?php
 				//Step2
-				$query = "SELECT * FROM StadiumLoc";
-				mysqli_query("capstonedb", "Select * from StadiumLoc") or die('Error querying database.');
+				$sql = "SELECT Stadium FROM StadiumLoc";
+				$result = $conn->query($sql);
 			?>
 
 			<br>
