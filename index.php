@@ -26,8 +26,8 @@
 		
 	<!-- Top half of the webpage -->
 	<div class="headerWrap">
-		<p align="center"><i>A place where sports fans are able to plan their perfect getaway</i></p>
 		<h1><b>Capture Sports</b></h1>
+		<p align="center"><i>A place where sports fans are able to plan their perfect getaway</i></p>
 		
 	
 		<!-- add padding here instead of breaks above-->
@@ -64,18 +64,20 @@
 				} 
 			//	echo "Connected successfully";
 
-				$sql = "SELECT * FROM StadiumLoc";
+				$sql = "SELECT Stadium FROM StadiumLoc";
 				$result = mysqli_query($conn, $sql);
 
 				
-			if ($result->num_rows > 0) {
+
+				echo $result;
+			//if ($result->num_rows > 0) {
    				// output data of each row
-			    while($row = $result->fetch_assoc()) {
-			        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
-			    }
-			} else {
-   	 			echo "0 results";
-			}
+			//    while($row = $result->fetch_assoc()) {
+			//        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+			//    }
+			//} else {
+   	 		//	echo "0 results";
+			//}
 
 			$conn->close();
 			?>
