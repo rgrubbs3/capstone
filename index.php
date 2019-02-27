@@ -1,18 +1,18 @@
-<!-- <?php 
-//	$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
-//	$username = "grubbs445Capston";
-//	$password = "grubbs445Capstone";
-//	$dbname = "capstonedb";
+<?php 
+	$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
+	$username = "grubbs445Capston";
+	$password = "grubbs445Capstone";
+	$dbname = "capstonedb";
 
 	// Create connection
-//	$conn = new mysqli($servername, $username, $password);
+	$conn = new mysqli($servername, $username, $password);
 
 	// Check connection
-//	if ($conn->connect_error) {
-//	    die("Connection failed: " . $conn->connect_error);
+	if ($conn->connect_error) {
+	    die("Connection failed: " . $conn->connect_error);
 	} 
-//	echo "Connected successfully";
-?> -->
+	echo "Connected successfully";
+?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -50,20 +50,6 @@
 			<p><b>West coast trip of the weekend!</b></p>
 
 			<?php
-				$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
-				$username = "grubbs445Capston";
-				$password = "grubbs445Capstone";
-				$dbname = "capstonedb";
-
-				// Create connection
-				$conn = new mysqli($servername, $username, $password);
-
-				// Check connection
-				if ($conn->connect_error) {
-				    die("Connection failed: " . $conn->connect_error);
-				} 
-			//	echo "Connected successfully";
-
 				$sql = "SELECT Stadium FROM StadiumLoc";
 				$result = mysqli_query($conn, $sql);
 
