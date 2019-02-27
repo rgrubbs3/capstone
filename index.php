@@ -51,17 +51,14 @@
 
 			<?php
 				$sql = "SELECT Stadium FROM StadiumLoc";
-				$result = mysqli_query($conn, $sql);
-
+				$result = mysqli_query($sql);
 				
-
-				
-			if ($result->num_rows > 0) {
+				if ($result->num_rows > 0) {
    				// output data of each row
-			    while($row = $result->fetch_assoc()) {
+			    	while($row = $result->fetch_assoc()) {
 			        echo $result;
-			    }
-			} else {
+			    	}
+				} else {
    	 			echo "0 results";
 			}
 
