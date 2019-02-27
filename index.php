@@ -32,7 +32,7 @@
 	
 		<!-- add padding here instead of breaks above-->
 		<nav>
-			<a href="index.html">Home</a>&nbsp;
+			<a href="index.php">Home</a>&nbsp;
 			<a href="stadiums.html">Stadiums</a>&nbsp;
 			<a href="plan.html">Plan a Trip</a>&nbsp;
 			<a href="misc.html">misc</a>&nbsp;
