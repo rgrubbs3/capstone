@@ -1,18 +1,18 @@
-<?php
-	$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
-	$username = "grubbs445Capston";
-	$password = "grubbs445Capstone";
-	$dbname = "capstonedb";
+<!-- <?php 
+//	$servername = "capstonedb.cumja1v6omzo.us-east-1.rds.amazonaws.com";
+//	$username = "grubbs445Capston";
+//	$password = "grubbs445Capstone";
+//	$dbname = "capstonedb";
 
 	// Create connection
-	$conn = new mysqli($servername, $username, $password);
+//	$conn = new mysqli($servername, $username, $password);
 
 	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
+//	if ($conn->connect_error) {
+//	    die("Connection failed: " . $conn->connect_error);
 	} 
 //	echo "Connected successfully";
-?>
+?> -->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -73,7 +73,7 @@
 			if ($result->num_rows > 0) {
    				// output data of each row
 			    while($row = $result->fetch_assoc()) {
-			        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+			        echo $result;
 			    }
 			} else {
    	 			echo "0 results";
