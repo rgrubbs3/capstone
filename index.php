@@ -26,8 +26,9 @@
 		
 	<!-- Top half of the webpage -->
 	<div class="headerWrap">
-		<h1><b>Capture Sports</b></h1>
 		<p align="center"><i>A place where sports fans are able to plan their perfect getaway</i></p>
+		<h1><b>Capture Sports</b></h1>
+		
 	
 		<!-- add padding here instead of breaks above-->
 		<nav>
