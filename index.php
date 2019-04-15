@@ -82,27 +82,27 @@ include 'connect.php';
 -->
 
 			<p style="color:white;"><b><u>Teams playing:</u></b></p>
-                        <p style="color:white;">Game 1: Giants vs. Rockies</p>
-                        <p style="color:white;">Game 2: Dodgers vs. Brewers</p>
+                        <p style="color:white;">Game 1: Angels vs. Mariners</p>
+                        <p style="color:white;">Game 2: Padres vs. Reds</p>
                         <br><br>
 
 			<p style="color:white;"><b><u>Time between stadiums:</u></b></p>
-                        <p style="color:white;">Approximately 6 hours travel time</p>
+                        <p style="color:white;">Approximately 1 hour 30 mins travel time</p>
                         <br><br>
 
 			<p style="color:white;"><b><u>Stadiums you will see:</u></b></p>
-			<p style="color:white;">AT&T Park</p>
-			<img src="/img/at&t.jpg" height="200px" width="300px"/>
+			<p style="color:white;">Angel Stadium</p>
+			<img src="/img/angel.jpg" height="200px" width="300px"/>
 			<br><br>
-			<p style="color:white;">Dodger Stadium</p>
-                        <img src="/img/dodger.webp" height="200px" width="300px"/>
+			<p style="color:white;">Petco Park</p>
+                        <img src="/img/petco.jpg" height="200px" width="300px"/>
 			<br><br><br>
 
 			<a href="withDirections.php" style="color:red;">Find most efficient route</a>
 			<br><br>
-			<a href="https://www.mlb.com/giants/tickets/single-game-tickets?mlbkw=ds-g-p40334055728&&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ov5GoR0sf4YXXE5pi0jKUr-WqOS8cQBXNqeJsfHj4PWcVOzacM1DTQaAilkEALw_wcB&gclsrc=aw.ds" style="color:red;">Buy Tickets Game 1!</a>
+			<a href="https://seatgeek.com/los-angeles-angels-tickets?aid=10717&gid=29759218984&rid=aud-413000092778:kwd-265702731747&dt=c&ap=1t1&adId=264246561573&loc_interest=&loc_physical=9008564&n=g&mt=b&ext=&xid=1&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zSyp3Vl224NxlVbTAAVOORKjJ4LgpKxOhimNXbWeQCfYDI92rgPq6saAhP9EALw_wcB" style="color:red;">Buy Tickets Game 1!</a>
 			<br><br>
-			<a href="https://seatgeek.com/los-angeles-dodgers-tickets?aid=34&pid=1712632982&gid=67089260855&rid=aud-413000092698:kwd-524470429&dt=c&ap=1t3&adId=340190084801&loc_interest=&loc_physical=9008569&n=g&mt=e&ext=&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ou2gnaavApHgCr_FXuXf-4Ya7DxxvOPnCoWsXUQ_xfc9GlIMjczKZkaAvjaEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
+			<a href="https://seatgeek.com/san-diego-padres-tickets?aid=10717&gid=29759220904&rid=aud-413000092778:kwd-267905212311&dt=c&ap=1t1&adId=264246561543&loc_interest=&loc_physical=9008564&n=g&mt=b&ext=&xid=1&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zRraUHghxG4MiVc3cVrjWe6TYpbvvZHaR9YiwsDTP5e72zdHbh0A3QaAp7lEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
 			<br>
 			<br>
 			<br>
@@ -162,28 +162,28 @@ include 'connect.php';
 -->			
 
 			<p style="color:white;"><b><u>Teams playing:</u></b></p>
-                        <p style="color:white;">Game 1: Royals vs. Indians</p>
-                        <p style="color:white;">Game 2: Cubs vs. Angels</p>
+                        <p style="color:white;">Game 1: Tigers vs. White Sox</p>
+                        <p style="color:white;">Game 2: Indianas vs. Braves</p>
                         <br><br>
 
 			<p style="color:white;"><b><u>Time between stadiums:</u></b></p>
-                        <p style="color:white;">Approximately 8 hours travel time</p>
+                        <p style="color:white;">Approximately 2 hours 45 mins travel time</p>
                         <br><br>   
 
 			<p style="color:white;"><b><u>Stadiums you will see:</u></b></p>
-                        <p style="color:white;">Kauffman Stadium</p>
-                        <img src="/img/kauffman.jpg" height="200px" width="300px"/>
+                        <p style="color:white;">Comerica Park</p>
+                        <img src="/img/comerica.jpg" height="200px" width="300px"/>
                         <br><br>
-                        <p style="color:white;">Wrigley Field</p>
-                        <img src="/img/wrigley.jpg" height="200px" width="300px"/>
+                        <p style="color:white;">Progressive Field</p>
+                        <img src="/img/progressive.jpg" height="200px" width="300px"/>
                         <br><br><br>
 
 
                         <a href="withDirections.php" style="color:red;">Find most efficient route</a>
                         <br><br>
-                        <a href="https://seatgeek.com/kansas-city-royals-tickets?aid=34&pid=1713749973&gid=67366800416&rid=aud-413000092698:kwd-679118654&dt=c&ap=1t2&adId=340162105573&loc_interest=&loc_physical=9008569&n=g&mt=e&ext=&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ouTenSWCLYt7EuRqe626t0yeg1EGrqhYOeuCuZiQgHdo9DqRVgWJZUaAg2_EALw_wcB" style="color:red;">Buy Tickets Game 1!</a>
+                        <a href="https://seatgeek.com/detroit-tigers-tickets?aid=10717&gid=29759221744&rid=aud-413000092778:kwd-267905214951&dt=c&ap=1t1&adId=229407734093&loc_interest=&loc_physical=9008564&n=g&mt=b&ext=&xid=1&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zQp6TnMBKrnyKqaMeSdWuf2kEivkq-e0GUsj6YrNROVqEryJCHrkh4aAoehEALw_wcB" style="color:red;">Buy Tickets Game 1!</a>
                         <br><br>
-                        <a href="https://seatgeek.com/chicago-cubs-tickets?aid=34&pid=332580253&gid=51503582814&rid=aud-413000092698:kwd-129436813&dt=c&ap=1t1&adId=326581430617&loc_interest=&loc_physical=9008569&n=g&mt=e&ext=&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ovm3MIuvLy1cNepT6zIIZK_Vid4y0C2FxeJJQM20YLXGEDj3pVkPHoaAulUEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
+                        <a href="https://seatgeek.com/cleveland-indians-tickets?aid=10717&gid=29759220184&rid=aud-413000092778:kwd-267905210551&dt=c&ap=1t1&adId=264246561531&loc_interest=&loc_physical=9008564&n=g&mt=b&ext=&xid=1&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zR5wF0yF4JKTJ5H5EpZr1f4J7_SF-rtc5oSaJx8hntRPbT1YQxG6VYaAoQAEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
 			<br>
 			<br>
 			<br>
@@ -244,12 +244,12 @@ include 'connect.php';
 
 
 			<p style="color:white;"><b><u>Teams playing:</u></b></p>
-                        <p style="color:white;">Game 1: Yankees vs. White Sox</p>
-                        <p style="color:white;">Game 2: Red Sox vs. Orioles</p>
+                        <p style="color:white;">Game 1: Yankees vs. Royals</p>
+                        <p style="color:white;">Game 2: Orioles vs. Twins</p>
                         <br><br>
 
 			<p style="color:white;"><b><u>Time between stadiums:</u></b></p>
-                        <p style="color:white;">Approximately 3 hours 30 mins travel time</p>
+                        <p style="color:white;">Approximately 3 hours 10 mins travel time</p>
                         <br><br> 
 
 			<p style="color:white;"><b><u>Stadiums you will see:</u></b></p>
@@ -257,8 +257,8 @@ include 'connect.php';
                         <img src="/img/yankee.jpeg" height="200px" width="300px"/>
                         <br><br>
 
-                        <p style="color:white;">Fenway Park</p>
-                        <img src="/img/fenway.jpg" height="200px" width="300px"/>
+                        <p style="color:white;">Camden Yards</p>
+                        <img src="/img/camden.jpg" height="200px" width="300px"/>
                         <br><br><br>
 
 
@@ -266,7 +266,7 @@ include 'connect.php';
                         <br><br>
                         <a href="https://seatgeek.com/new-york-yankees-tickets?aid=34&pid=332581933&gid=38993587863&rid=aud-413000092698:kwd-18088689880&dt=c&ap=1t4&adId=326581432723&loc_interest=&loc_physical=9008569&n=g&mt=b&ext=&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ovQTLEF4wVzz03mLqVHxM0uTQpvVswd48N5TgtzBvWnzIJBZkaRhxsaAkt0EALw_wcB" style="color:red;">Buy Tickets Game 1!</a>
                         <br><br>
-                        <a href="https://seatgeek.com/boston-red-sox-tickets?aid=34&pid=819600938&gid=41709968065&rid=aud-413000092698:kwd-298609497050&dt=c&ap=1t1&adId=326561054605&loc_interest=&loc_physical=9008569&n=g&mt=b&ext=&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ovo9XvUeZZDDpPSzaHyf9kvwHdUAozez1xH0p8VttaNw4-ufOXJR9gaAvWyEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
+                        <a href="https://seatgeek.com/baltimore-orioles-tickets?aid=10717&gid=29759220784&rid=aud-413000092778:kwd-267905212071&dt=c&ap=1t1&adId=264284581835&loc_interest=&loc_physical=9008564&n=g&mt=b&ext=&xid=1&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zQr2LdZt6JIA4SfasJLRp2aaJr8Ox10bbcYpgMJhlpZgiks_XwXM6MaArjOEALw_wcB" style="color:red;">Buy Tickets Game 2!</a>
                         <br>
                         <br>
                         <br>

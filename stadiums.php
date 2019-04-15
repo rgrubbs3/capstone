@@ -130,8 +130,9 @@ include 'connect.php';
 	</div>
 	<h3 style="text-size:30px; font-weight:bold;">List of stadiums you want to see:</h3>
 	<ul id="list" style="text-align:center;">
-	<li style="font-size:18px; color:green;"><a href="calendar.php#target">Buy Tickets to these places!</a></li>
 	</ul>
+
+	<h3 style="font-size:18px; color:green;"><a href="calendar.php#target">Buy Tickets to these places!</a></h3>
 
 	<script type="text/javascript">
 
@@ -144,7 +145,7 @@ include 'connect.php';
     			li.setAttribute('id',candidate.value);
     			li.appendChild(document.createTextNode(candidate.value));
     			ul.appendChild(li);
-			alert("Stadium has been added to your list");
+			alert("Stadium has been added to your list (bottom of page)");
 		}
 	</script>
 </body>
